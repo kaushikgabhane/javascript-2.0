@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute</title>
+    <style>
+        h2[title]{
+            background-color: #E21717;
+        }
+
+        h2[title~="abc"] {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h2 title="abc">This is heading one</h2>
+    <h2 title="abc">This is heading two</h2>
+    <h2 title="acb">This is heading three</h2>
+    <h2 title="mca">This is heading four</h2>
+</body>
+</html>

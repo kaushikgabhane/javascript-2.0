@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo class</title>
+    <style>
+        article li:first-child {
+            font-size: 200%;
+            color: #383CC1;
+        }
+
+        input:focus {
+            background-color: #383CC1;
+            color: #0D0D0D;
+        }
+
+        .btn:hover {
+           height: 50px;
+           width: 50px;   
+            background-color: #758283;
+            color: #0D0D0D;
+            border-radius: 5px;
+        }
+    </style>
+</head>     
+<body>
+    <article>
+        <li>One </li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+    </article>
+    <hr>
+
+    <label for="hii">name </label>
+    <input type="text" placeholder="focus shifted here when you click here">
+    <button type="submit" class="btn">submit</button>
+</body>
+</html>
