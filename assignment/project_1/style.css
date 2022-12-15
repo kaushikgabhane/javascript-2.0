@@ -1,0 +1,84 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.container{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.list-item{
+    padding: 10px;
+    color: #7e7a7a;
+}
+
+.list :first-child{
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-container{
+    display: flex;
+    margin-top: 0px;
+}
+
+.navbar-container>div>img{
+    position: relative;
+    top: 7px;
+}
+
+.nav-button{
+    position: relative;
+    top: 20px;
+    left: 475px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background-color:#2827CC ;
+    color: #fff;
+    border: none;
+}
+
+.heading-text{
+    font-size: 65px;
+    color: #120e60;
+    display: inline-block;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 75px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    color:#383CC1;
+}
+
+.description {
+    display: inline-block;
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    top: 350px;
+    color: #7e7a7a;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    padding: 20px;
+    width: 200px;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+
+.banner-container > div > img {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    right: 0%;
+}
