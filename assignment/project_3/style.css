@@ -1,0 +1,208 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+body{
+    margin: 0%;
+}
+
+.container{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+
+/* navigation set-up */
+
+.navbar-container {
+    display: flex;
+    gap: 100px;
+}
+
+.navbar-container>div>img {
+    position: relative;
+    top: 10px;
+}
+
+
+/* list items in nav bar */
+
+.list :first-child {
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.list{
+    list-style: none;
+    display: flex;  
+}
+
+.list-item{
+    margin: 20px;
+    font-size: 20px;
+    font-family: orbitron;
+}
+
+
+/*search button resizing */
+
+.button-group{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    gap: 20px;
+}
+
+.nav-button{
+    font-size: x-large;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #758283;
+
+}
+
+
+/* star image resize and positioning*/
+
+.hero-container :nth-child(3).star img{
+    width: 40px;
+    height: 40px;
+}
+
+.hero-container :nth-child(2).star img{
+    width: 60px;
+    height: 60px;
+}
+
+.hero-container :nth-child(2).star{
+    position: relative;
+    bottom: 275px;
+    left: 125vh;
+}
+
+.hero-container :nth-child(3).star{
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+
+
+/* glob img and position */
+
+.globe img{
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+
+/*About model image and background square image */
+
+.square{
+    position: relative;
+    left: 75px;
+    top: 125px;
+}
+
+.square img{
+    height: 350px;
+    width: 350px;
+}
+
+.hero-container :nth-child(5){
+    position: absolute;
+    top: 125px;
+}
+
+.hero-container>div>img{
+    width: 350px;
+    height: 400px;
+
+}
+
+
+/* About middle  text-content */
+
+.hero-container-right {
+   position: absolute;
+   bottom: 100px;
+}
+
+.hero-heading {
+    display: flex;
+    flex-direction:row-reverse;
+    position: relative;
+    left: 500px;
+    bottom: 25px;
+    font-size: 50px;
+    font-family:orbitron;
+}
+
+.hero-description {
+    position:relative;
+    width: 540px;
+    display: block;
+    left: 575px;
+    bottom: 25px;
+    text-align: center;
+    color: #758283;
+    margin: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+
+/* email and join button info */
+
+.hero-container-right >div>button{
+    position: relative; 
+    left: 675px;
+    top: 25px;
+}
+
+.button-email{
+    background-color: #fff;
+    color: #758283;
+    border-color: #758283;
+    border-radius: 8px;
+    font-size: large;
+    width: 200px;
+    font-family: orbitron;
+}
+
+.button-join{
+    background-color:#000;
+    color: #fff;
+    font-size:large;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-family: orbitron;
+}
+
+
+/* contact and social links info */
+
+.contact-heading, .icons{
+    position: relative;
+    left: 600px;    
+    top: 90px;
+    margin-left: 170px;
+}
+
+.contact-heading {
+    margin-left: 210px;
+    color: #758283;
+    font-family: orbitron;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons>span>img {
+    width: 30px; 
+    height: 30px;
+}

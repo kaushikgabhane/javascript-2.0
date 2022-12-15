@@ -1,0 +1,98 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+body {
+    background-image: url(./assets/bg.png);
+    margin: 0%;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    gap: 20px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #000;
+}
+
+.navbar>div>img {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+
+.line::after{
+    content: "|" ;
+    /* line-height: 50px; */
+    color: #fff;
+    position: absolute;
+    left: 225px;
+    top: 30px;
+
+} 
+
+.list :first-child::after {
+    content: "∨";
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.list-item {
+    padding: 15px;
+    position: relative;
+    left: 150px;
+    display: flex;
+}
+
+.button-small {
+    width: 100px;
+    height: 25px;
+    position: relative;
+    top: 30px;
+    left: 500px;
+    border-radius: 5px;
+    background-color: #d237e0;
+    color: #fff;
+    border: 0ch;
+}
+
+.hero-heading {
+    display: inline-block;
+    width: 700px;
+    height: 200px;
+    position: relative;
+    left: 360px;
+    top: 33px;
+    font-size: 75px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-description{
+    display: inline-block;
+    width: 700px;
+    height: 200px;
+    position: relative;
+    left: 425px;
+    bottom: 70px;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button-large {
+    padding: 20px;
+    position: relative;
+    right: 150px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    background-color: #d237e0;
+    font-size: 20px;
+
+}

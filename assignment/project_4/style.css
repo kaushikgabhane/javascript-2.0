@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Search */
+    background: #F9F5ED;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    padding: 20px 10%;
+    /* height: 10vh; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    gap: 50px;
+    font-weight: 500;
+}
+
+
+/* CSS for HERO Section */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.leftmain{
+    width: 40%;
+    
+}
+
+.leftmain h1{
+    font-size: 67px;
+}
+
+.leftmain p{
+    margin: 5% 0;
+}
+
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.rightmain{
+    width: 50%;
+}
+
+.img-grp1{
+   margin-bottom: 20px;
+}
+
+.img-grp1 :first-child{
+    margin-right: 20px; 
+    height: 200px;
+    width: 200px;
+}
+
+.img-grp1 :nth-child(2){
+    height: 250px;
+}
+
+.img-grp2 img{
+    height: 210px;
+}
