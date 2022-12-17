@@ -271,3 +271,97 @@ body{
     margin-right: 10px;
     margin-left: 10px;
 }
+
+/* pricing */
+
+.pricing{
+    background-color: #000;
+    color: #fff;
+}
+
+.p-heading{
+    font-size: 30px;
+    padding-top: 50px;
+    width: 450px;
+    text-align: center;
+    margin-left: 450px;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-around;
+}
+.arrows>img{
+    height: 75px;
+}
+
+
+.option{
+    display: flex;
+    justify-content: center;
+    gap: 30px   ;
+}
+.regular, .premium{
+    height: 500px;
+    width: 300px;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.standerd{
+    height: 500px;
+    width: 300px;
+    background-color: #1f89e0;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.regular-1, .standerd-1, .premium-1{
+    display: flex;
+}
+.regular-1>h1, .standerd-1>h1, .premium-1>h1{
+    font-size: 35px;
+    margin:0%;
+}
+.regular-1>span, .standerd>span, .premium>span{
+    color: #7e7a7a;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.regular>p, .standerd>p, .premium>p{
+    font-weight: bold;
+}
+.details-1, .details-2{
+    display: flex;
+}
+.details-1>p, .details-2>p{
+    margin:2.5%;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.Details-btn1, .Details-btn3{
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    background-color: #1f89e0;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.Details-btn2{
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    color: #1f89e0;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    font-size: 20px;
+}
