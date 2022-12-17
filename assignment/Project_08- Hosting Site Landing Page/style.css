@@ -300,6 +300,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 30px   ;
+    padding-bottom: 75px;
 }
 .regular, .premium{
     height: 500px;
@@ -326,8 +327,8 @@ body{
     font-size: 35px;
     margin:0%;
 }
-.regular-1>span, .standerd>span, .premium>span{
-    color: #7e7a7a;
+.regular-1>span, .standerd-1>span, .premium-1>span{
+    color: #b1b0b0;
     margin-top: 20px;
     font-weight: bold;
 }
@@ -364,4 +365,114 @@ body{
     border-radius: 50px;
     margin-top: 25px;
     font-size: 20px;
+}
+
+/* review section */
+.review{
+    padding: 50px;
+}
+.review1{
+    display: flex;
+    justify-content: space-around;
+}
+.review1>h1{
+    font-size: 30px;
+    width: 250px;
+}
+.review1>p{
+    color: #7e7a7a;
+    width: 375px;
+}
+
+.review2{
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.review-2a , .review-2b{
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    color: #000;
+    padding: 50px;
+    border-radius: 30px;
+    border: 2px solid #7e7a7a;
+}
+
+.review-2a:hover , .review-2b:hover{
+    background-color: #000;
+    color: #ddd6d6;
+}
+
+.review-2a>h2{
+    margin-bottom: 0%;
+}
+.review-2a>p{
+    margin-top: 30px;
+}
+
+
+/* signup section */
+
+.signup{
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.signup>h1{
+    font-size: 30px;
+    width: 600px;
+    margin: auto;
+}
+.signup-1{
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: #202020;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.signup-1>input{
+    padding: 10px;
+    background-color: #535252;
+    border-radius: 50px;
+    margin-right: 20px;
+    border: none;
+}
+.signup-1>input::placeholder{
+    color: #b1b0b0;
+}
+.signup-1>button{
+    padding: 10px;
+    width: 100px;
+    background-color: #1f89e0;
+    color: #ddd6d6;
+    border-radius: 50px;
+    border: none;
+    margin-left: 20px;
+}
+
+.footer{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    background-color: #000;
+
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+
+.logo{
+    background-color: #000;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
