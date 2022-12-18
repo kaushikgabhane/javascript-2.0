@@ -51,12 +51,21 @@ let arr3 = [9,10,11,21];
 // console.log(arr4.indexOf(8));
 
 // isArray
-let num = [11,12,13,14,15,16,17];
+// let num = [11,12,13,14,15,16,17];
 // console.log(Array.isArray(num));
 
 
 // join 
-console.log(num.join(" and "));
-console.log(num.join("  "));
-console.log(num.join(" - "));
-console.log(num.join());
+// console.log(num.join(" and "));
+// console.log(num.join("  "));
+// console.log(num.join(" - "));
+// console.log(num.join());
+
+//lastIndexOf
+// let num = [1,2,3,1,4,5,2,6,3];
+// console.log(num.lastIndexOf(1));
+
+// map
+let math = [1,4,9,16,25,49];
+console.log(math.map(Math.sqrt));
+console.log(math)
