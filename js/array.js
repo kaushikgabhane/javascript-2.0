@@ -67,5 +67,28 @@ let arr3 = [9,10,11,21];
 
 // map
 let math = [1,4,9,16,25,49];
-console.log(math.map(Math.sqrt));
-console.log(math)
+// console.log(math.map(Math.sqrt));
+// console.log(math)
+
+
+//pop
+// console.log(math.pop());
+
+// reverse
+// console.log(math.reverse());
+
+// shift
+// console.log(math.shift());
+
+let names = ["kaushik","ash","tom","mohit"];
+// console.log(names.sort());
+// console.log(names.reverse(names.sort()));  //reverse sorted array
+
+// unshift
+// names.unshift("gaurav");
+// console.log(names);
+
+// converting to ARRAY
+// let name = 'kaushik';
+// let arr8 = name.split('');
+// console.log(arr8);
