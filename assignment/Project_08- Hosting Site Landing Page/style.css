@@ -359,6 +359,9 @@ body{
     margin-top: 25px;
     font-size: 20px;
 }
+.Details-btn1{
+    margin-top: 40px;
+}
 .Details-btn2{
     padding: 10px;
     width: 300px;
@@ -488,7 +491,7 @@ body{
     }
 }
 
-@media (max-width:475px){
+@media (max-width:600px){
     body{
         width: fit-content;
     }
@@ -517,7 +520,9 @@ body{
       margin-left: 150px;
     }
 
-
+    .main-div>p {
+        margin-right: 250px;
+    }
     .md-1{
        display: flex;
        flex-direction: column;
@@ -525,13 +530,103 @@ body{
        gap: 50px   ;
     }
     .md-1a, .md-1b, .md-1c{
-        width: 100%;
+        width: 80%;
     }
     .md-1a>h1, .md-1b>h1, .md-1c>h1{
         font-size: xx-large;
     }
     .md-1a>p, .md-1b>p, .md-1c>p{
         font-size: large;
-        color: #c2c0c0;
+        color: #dddada;
+    }
+    .md-1a:hover, .md-1b:hover, .md-1c:hover{
+        transform: scale(1.5);
+        background-color: #000;
+    }
+
+    
+    .features>h1{
+        text-align: center;
+    }
+
+    .p-heading{
+        text-align: center;
+        margin-left: 330px;
+        margin-top: 25px;
+    }
+
+    
+    .option{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px   ;
+        padding-bottom: 140px;
+    }
+    .standerd, .regular, .premium{
+        width: 50%;
+        height: 675px;
+    }
+    .standerd:hover, .regular:hover, .premium:hover{
+        transform: scale(1.3);
+        transition: 1s ease-in-out 0.3s;
+    }
+    .regular-1>h1, .standerd-1>h1, .premium-1>h1{
+        font-size: 40px;
+        margin:0%;
+    }
+    .regular>p, .standerd>p, .premium>p{
+        font-size: larger;
+    }
+    .details-1>p, .details-2>p{
+        font-size: x-large;
+    }
+    .Details-btn1,.Details-btn2, .Details-btn3{
+        width: 100%;
+        font-size: x-large;
+    }
+
+    .review{
+        padding-bottom: 100px;
+    }
+    .review1>h1{
+        font-size: 40px;
+        width: 400px;
+    }
+    .review1>p{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .review2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .review-2a:hover , .review-2b:hover{
+        transform: scale(1.5);
+        transition: 1s ease-in-out 0.3s;
+        box-shadow: 2px 0px 30px #2b2929 , -2px 0px 30px #2b2929;
+    }
+
+    .signup-1{
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+    }    
+    .signup-1>input::placeholder{
+        color: #dfd5d5;
+        font-size: large;
+    }
+    .signup-1>input{
+        font-size: large;
+        color: #dddada;
+    }
+    .signup-1>button{
+        color: #fff;
+        font-size: larger;
+        width: 100%;
+        margin-left: 0%;
     }
 }
