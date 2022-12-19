@@ -67,20 +67,23 @@ let arr3 = [9,10,11,21];
 
 // map
 let math = [1,4,9,16,25,49];
-// console.log(math.map(Math.sqrt));
+// console.log(math.map());
 // console.log(math)
 
 
 //pop
 // console.log(math.pop());
+// console.log(math);
 
 // reverse
-// console.log(math.reverse());
+let names = ["kaushik","ash",25,"tom","mohit",1];
+// console.log(names.reverse());
 
 // shift
 // console.log(math.shift());
+// console.log(math);
 
-let names = ["kaushik","ash","tom","mohit"];
+// sorting
 // console.log(names.sort());
 // console.log(names.reverse(names.sort()));  //reverse sorted array
 
@@ -92,3 +95,18 @@ let names = ["kaushik","ash","tom","mohit"];
 // let name = 'kaushik';
 // let arr8 = name.split('');
 // console.log(arr8);
+
+// keys 
+// let array1 = ['a', 'b', 'c'];
+let iterator = names.keys();
+
+for (const key of iterator) {
+  console.log(key);
+}
+
+//values
+// let iterator = names.values();
+
+// for (const value of iterator) {
+//   console.log(value);
+// }
