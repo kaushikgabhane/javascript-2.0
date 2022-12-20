@@ -98,15 +98,47 @@ let names = ["kaushik","ash",25,"tom","mohit",1];
 
 // keys 
 // let array1 = ['a', 'b', 'c'];
-let iterator = names.keys();
+// let iterator = names.keys();
 
-for (const key of iterator) {
-  console.log(key);
-}
+// for (const key of iterator) {
+//   console.log(key);
+// }
 
 //values
 // let iterator = names.values();
 
 // for (const value of iterator) {
 //   console.log(value);
+// }
+
+// for of loop
+let fruits = ["apple","badaApple","ChotaApple","DoubleApple","everyApple"];
+
+// let Upperfruit = [];
+
+// for(const element of fruits){
+  // Upperfruit.push(element.toUpperCase());
+  // Upperfruit.push(element.toLowerCase());
+  // Upperfruit.push(element.split());
+  // Upperfruit.push(element.toLowerCase());
+
+// }
+// console.log(Upperfruit);
+
+// break and continue
+
+// for(let i=0;i<=5;i++){
+  //   // console.log(i);
+  
+  //   if(i==4){
+    //     break;
+    //   }
+    //   console.log(i);
+    // }
+    
+// for(let element of fruits){  
+//   if(element=="DoubleApple"){
+//     continue;
+//   }
+//   console.log(element);  
 // }
