@@ -502,6 +502,7 @@ body{
     .nav-button{
         position: relative;
         left: 100px;
+        font-size: larger;
     }
     .heading{
        display: flex;
@@ -517,7 +518,14 @@ body{
     }
   
     .heading-btn{
-      margin-left: 150px;
+      margin-left: 125px;
+    }
+    .btn-1, .btn-2{
+        font-size:x-large;
+        width: 200px;
+    }
+    .btn-1:hover, .btn-2:hover{
+        width: 200px;
     }
 
     .main-div>p {
@@ -530,7 +538,7 @@ body{
        gap: 50px   ;
     }
     .md-1a, .md-1b, .md-1c{
-        width: 80%;
+        width: 60%;
     }
     .md-1a>h1, .md-1b>h1, .md-1c>h1{
         font-size: xx-large;
@@ -551,11 +559,11 @@ body{
 
     .p-heading{
         text-align: center;
-        margin-left: 330px;
+        margin-left: 275px;
         margin-top: 25px;
     }
 
-    
+   
     .option{
         display: flex;
         flex-direction: column;
@@ -628,5 +636,13 @@ body{
         font-size: larger;
         width: 100%;
         margin-left: 0%;
+    }
+
+    .footer1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        font-size: large;
     }
 }
