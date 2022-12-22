@@ -1,0 +1,250 @@
+body{
+    margin: 0%;
+    /* padding-left: 50px;
+    padding-top: 25px; */
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bgc-img{
+    width:100%;
+    height: 100vh;
+}
+/* navbar styling */
+.navbar{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    display: flex;
+    color: #fff;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 150px;
+    color: #cec2c2;
+}
+.list-item:hover{
+    color: #fff;
+}
+
+.nav-btn{
+    padding-top: 10px;
+    margin-left: 300px;
+}
+.nav-btn-1, .nav-btn-2{
+    padding: 10px;
+    width: 100px;
+    background: none;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+.nav-btn-1:hover , .nav-btn-2:hover{
+    background-color: #ec6634;
+    box-shadow: 1px 1px 20px #ec6634;
+}
+
+/* hero section styling */
+.hero{
+    display: flex;
+    gap: 300px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    
+}
+.hero-heading{
+    color: #fff;
+    font-size:50px;
+    width: 525px;
+}
+.hero-description{
+    color: #9e9898;
+    width: 500px;
+}
+
+.left-btn{
+    padding-top: 50px;
+}
+.left-btn-1, .left-btn-2{
+    padding: 15px;
+    width: 175px;
+    border:1px solid    #cec2c2;
+    color: #cec2c2;
+    font-weight: bold;
+    background: none;
+    margin-right: 20px;
+}
+.left-btn-1:hover, .left-btn-2:hover{
+    background-color: #ec6634;
+    box-shadow: 1px 1px 20px #ec6634;
+    border: none;
+}
+
+.hero-right{
+    position: absolute;
+    top: 27%;
+    left: 850px;
+    color: #fff;
+}
+.right-description{
+    display: flex;
+    gap: 10px;
+    padding-top: 100px;
+
+}
+.play-btn{
+    margin-left: 80px;
+    height: 60px;
+    width: 60px;
+}
+.right-description>p{
+    width: 150px;
+    line-height: 30px;
+}
+.dash{
+    position: relative;
+    bottom: 30px;
+}
+.rightArrow{
+    position: relative;
+    top: 30px;
+}
+
+/* Popular games */
+.actionGame-heading{
+    font-weight:900;
+    font-size: 30px;
+    width: 525px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+   
+}
+.game-card{
+    display: flex;
+    padding-left: 100px;
+    gap: 30px;
+}
+.game-card-1{
+    height: 300px;
+    width: 270px;
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-size: cover;
+    background-position: right;
+}
+.game-card-2{
+    height: 300px;
+    width: 270px;
+    background-image: url(./Assets/Photos/image\ 4.png);
+    background-size: cover;
+    background-position: center;
+}
+.game-card-3{
+    height: 300px;
+    width: 270px;
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-size: cover;
+    background-position: center;
+}
+.game-card-4{
+    height: 300px;
+    width: 270px;
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-size: cover;
+    background-position: center;
+}
+.gc-details{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 228px;
+    backdrop-filter:blur(5px);
+    padding: 5px;
+}
+.game-card-des{
+    color: #fff;
+}
+.game-card-des>h4 , h5 {
+    margin: 0%;
+}
+.game-card-des>h5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #cac6c6;
+} 
+.Download-btn1, .Download-btn2, .Download-btn4{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    position:relative;
+    top: 10px;
+    left: 10px;
+    background-color: #ec6634;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+.Download-btn3{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    position:relative;
+    top: 10px;
+    left: 20px;
+    background-color: #ec6634;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+.Download-btn1:hover, .Download-btn2:hover, .Download-btn3:hover, .Download-btn4:hover{
+    box-shadow: 1px 1px 20px #ec6634;
+}
+
+
+/*  War Game*/
+.war-main{
+    padding-top: 150px;
+    display: flex;
+    gap: 75px;
+    padding-left: 100px;
+}
+.war-img>img{
+    height: 400px;
+    width: 500px;
+}
+.war-description>h2{
+    font-size: 40px;
+    font-weight:800;
+    width: 490px;
+    margin-top: 0%;
+}
+.war-description>p{
+    width: 490px;
+    color: #575656;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+.war-btn{
+    display: flex;
+    gap: 20px   ;
+}
+.war-btn1, .war-btn2{
+    width: 150px;
+    padding: 15px;
+    color: #ec6634;
+    background-color: #fff;
+    border: 1px solid #ec6634;
+}
+.war-btn1:hover, .war-btn2:hover{
+    background-color: #ec6634;
+    color: #fff;
+    font-weight: bold;
+}
