@@ -1,7 +1,5 @@
 body{
     margin: 0%;
-    /* padding-left: 50px;
-    padding-top: 25px; */
     box-sizing: border-box;
     overflow-x: hidden;
     font-family:Arial, Helvetica, sans-serif;
@@ -23,7 +21,7 @@ body{
 .list{
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     padding-left: 150px;
     color: #cec2c2;
 }
@@ -103,6 +101,10 @@ body{
     height: 60px;
     width: 60px;
 }
+.play-btn:hover{
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #8b8585 , -1px -1px 10px #8b8585;
+}
 .right-description>p{
     width: 150px;
     line-height: 30px;
@@ -159,6 +161,11 @@ body{
     background-image: url(./Assets/Photos/Rectangle\ 56.png);
     background-size: cover;
     background-position: center;
+}
+.game-card-1:hover , .game-card-2:hover , .game-card-3:hover , .game-card-4:hover{
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+    filter: drop-shadow(0px 20px 10px #202020);
 }
 .gc-details{
     display: flex;
@@ -219,6 +226,12 @@ body{
 .war-img>img{
     height: 400px;
     width: 500px;
+    filter: drop-shadow(0px 20px 10px #202020);
+
+}
+.war-img>img:hover{
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
 }
 .war-description>h2{
     font-size: 40px;
@@ -309,6 +322,15 @@ body{
 .human-battle-img>img, .snake-img>img, .spider-man-img>img, .mask-hero-img>img{
     height: 225px;
     width: 175px;
+    filter: drop-shadow(0px 20px 10px #202020);
+
+}
+.human-battle-img>img:hover, .mask-hero-img>img:hover, .spider-man-img>img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+.snake-img>img:hover{
+    transform: scale(5);
 }
 .human-battle-description>h2, .snake-description>h2, .spider-man-description>h2, .mask-hero-description>h2{
     width: 260px;
@@ -474,11 +496,27 @@ body{
 }
 .social-m{
     display: flex;
-    gap: 20px   ;
+    gap: 20px;
+}
+.social-m :nth-child(1):hover{
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #8b8585,  -1px -1px 10px #8b8585;
+}
+.social-m :nth-child(2):hover{
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #8b8585,  -1px -1px 10px #8b8585;
+}
+.social-m :nth-child(3):hover{
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #8b8585,  -1px -1px 10px #8b8585;
 }
 .second>span, .third>span, .four>span, .five>span{
     color: #fff;
 }
 .second>p, .third>p, .four>p, .five>p{
     color: #8b8585;
+}
+.second>p:hover, .third>p:hover, .four>p:hover, .five>p:hover{
+    color: #4169e1;
+    font-weight: bold;
 }
