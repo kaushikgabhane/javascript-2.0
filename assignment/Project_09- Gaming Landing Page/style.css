@@ -438,7 +438,6 @@ body{
 
 /* Get started */
 .get-started{
-    background-color: #000;
     background-image: url(./Assets/Photos/Rectangle\ 606.png);
     background-size: cover;
     background-blend-mode: difference;

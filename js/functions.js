@@ -54,6 +54,7 @@
 // let arrresult = sum(summary);
 // console.log(arrresult);
 
+
 // function sum(){
 
     // this will give array of arguments.
@@ -73,3 +74,48 @@
 // };
 
 // ash("ash","kechum");
+
+
+
+
+// creating user role in a feature
+
+let getrole = function (name,role){
+    switch(role){
+        case "admin":
+           return `${name} is a admin with all access`;
+
+        case "sub-admin":
+            return `${name} is a sub-admin`; 
+        case "tester":
+            return `${name} is a tester`;      
+        case "user":
+            return `${name} is a user`;
+        default :"free-user" 
+            return `${name} is a free-user`    
+    }
+}
+// console.log(getrole("kaushik","admin"));
+
+
+
+//   mini rating logic
+function rate(star){
+    if(star == 5){
+        console.log(`${star} is the highest rating`)
+    }
+    else if (star == 4) {
+        console.log( `${star} is the second highest rating `)
+    } else if(star == 3){
+        console.log(`${star} is a medium rating`)
+    }else if(star == 2){
+        console.log(`${star} is a low rating`)
+    }else if(star == 1){
+        console.log(`${star} is a lowest rating`)
+    }else if(star == 0){
+        console.log(`The app is not rated`)
+    }
+}
+// rate(1);
+// rate(4);
+// rate(0);
