@@ -1,0 +1,249 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-section{
+    background-image: url(./Photos/mainBackground.png);
+    background-color: #3b3a3a;
+    background-blend-mode:soft-light;
+    padding-inline: 100px;
+    padding-bottom: 200px;
+}
+.navbar{
+    display: flex;
+    gap: 500px  ;
+    /* justify-content: space-between; */
+    padding-top: 20px;
+}
+.logo{
+    height: 40px;
+    padding-top: 10px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    color: #dbd7d7;
+    gap: 80px;
+}
+.list-item:hover{
+    color: #ffffff;
+}
+
+.hero-heading{
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: bold;
+    width: 600px;
+    padding-top: 170px;
+    margin-block: 0%;
+}
+.hero-description{
+    color: #dbd7d7;
+    width: 340px;
+    line-height: 25px;
+}
+.hero-btn{
+    padding: 15px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    background-color: #666dc7;
+    color: #ffffff;
+    font-weight: bold;
+}
+.hero-btn:hover{
+    color: #666dc7;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 10px #565ecc , inset -2px -2px 10px #565ecc;
+}
+
+/* Logo strip */
+
+.logo-strip{
+    height: 100px;
+    width: 90vw;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 113%;
+    margin-left: 80px;
+    filter: drop-shadow(0px 2px 10px #5c5959);
+}
+.logo-strip>img{
+    height: 80px;
+    width: 100px;
+}
+
+/* Best estate */
+.best-heading{
+    background-color: #fff;
+}
+.best-heading{
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 75px;
+}
+.Estate-img1{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(./Photos/cardImage1.png);
+    background-size: cover;
+    background-position: center;
+}
+.Estate-img2{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(./Photos/cardImage2.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 30px;
+}
+.Estate-img3{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(./Photos/cardImage3.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 60px;
+}
+.Estate-img4{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(./Photos/cardImage4.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 60px;
+}
+.Estate-img5{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(./Photos/cardImage5.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 30px;
+}
+.Estate-img6{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(./Photos/cardImage6.png);
+    background-size: cover;
+    background-position: center;
+}
+.Estate-img7{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(./Photos/cardImage7.png);
+    background-size: cover;
+    background-position: center;
+}
+.Estate-img8{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(./Photos/cardImage8.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 30px;
+}
+.Estate-img9{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(./Photos/cardImage9.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 60px;
+}
+.estate-description{
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    left: 14px;
+    filter: drop-shadow(0px 2px 10px #857f7f);
+}
+.estate-description2, .estate-description5, .estate-description8{
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    bottom: 25px;
+    left: 14px;
+    filter: drop-shadow(0px 2px 10px #857f7f);
+}
+.estate-description3, .estate-description4, .estate-description9{
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 14px;
+    filter: drop-shadow(0px 2px 10px #857f7f);
+}
+.estate-description-left>span{
+    color: #666dc7;
+    font-weight: bold;
+}
+.estate-description-left>h4{
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.estate-description>button,.estate-description2>button,.estate-description3>button,.estate-description4>button,.estate-description5>button,.estate-description8>button,.estate-description9>button{
+    background-color: #565ecc;
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.option1:hover{
+    transform: scale(1.2);
+    transition: 0.7s ease-in-out;
+}
