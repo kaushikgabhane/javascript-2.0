@@ -15,7 +15,6 @@ body{
 .navbar{
     display: flex;
     gap: 500px  ;
-    /* justify-content: space-between; */
     padding-top: 20px;
 }
 .logo{
@@ -351,7 +350,7 @@ body{
 .sub-main{
     background-color: #666dc7;
     border-radius: 30px;
-    margin-inline: 20px ;
+    margin-inline: 50px ;
     margin-top: 100px;
     padding-inline: 100px;
     padding-block: 50px;
@@ -382,7 +381,6 @@ body{
     align-items: center;
     padding: 10px;
     border-radius: 50px;
-    /* margin-inline: auto; */
 }
 .input>img{
     height: 30px;
@@ -409,6 +407,11 @@ body{
     color: #565ecc;
     font-size: large;
     font-weight: bold;
+}
+.subscription>button:hover{
+    color: #666dc7;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 10px #565ecc , inset -2px -2px 10px #565ecc;
 }
 
 /* Footer section */
@@ -441,4 +444,4 @@ body{
 .second>div>span{
     color: #000;
     font-weight: bold;
-}
+} 
