@@ -428,9 +428,12 @@ body{
     display: flex;
     gap: 20px;
 }
-.social>button{
-    height: 35px;
+.social>a{
+    height: 50px;
     border-radius: 50%;
+}
+.social>a:hover{
+    box-shadow: 1px 1px 10px #3110f0 , -1px -1px 10px #3110f0 ;
 }
 .first>p{
     width: 240px;
