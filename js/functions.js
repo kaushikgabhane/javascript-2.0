@@ -173,4 +173,27 @@ function calculator(operator,num1,num2){
 }
 
 let result = calculator("/",2,12);
-console.log(result);
+// console.log(result);
+
+
+// calculator using switch case
+
+function calc(operator,num1,num2){
+    switch (operator) {
+        case "+":
+            return `${num1 + num2} is your desired sum.`
+        case "-":
+            return `${num1 - num2} is your desired subtraction.`            
+        case "*":
+            return `${num1 * num2} is your desired multiplication.`
+        case "/":
+            return `${num1 / num2} is your desired division.`
+        case "%":
+            return `${num1 % num2} is your desired remainder of this operation.`    
+
+        default:
+            return `invalid operation.`
+    }
+}
+
+console.log(calc("%",10,5));
