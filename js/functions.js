@@ -119,3 +119,41 @@ function rate(star){
 // rate(1);
 // rate(4);
 // rate(0);
+
+
+// calculator logic
+
+function sum(num1,num2){
+    let result = num1 + num2 ;
+    return result;
+}
+
+let add = sum(50,50);
+console.log(add);
+
+
+function sub(num1,num2){
+    let result2 = num1 - num2 ;
+    return result2;
+}
+
+let subtract = sub(50,50);
+console.log(subtract);
+
+
+function mul(num1,num2){
+    let result3 = num1 * num2 ;
+    return result3;
+}
+
+let multi = mul(50,50);
+console.log(multi);
+
+
+function div(num1,num2){
+    let result4 = num1 / num2 ;
+    return result4;
+}
+
+let division = div(50,50);
+console.log(division);
