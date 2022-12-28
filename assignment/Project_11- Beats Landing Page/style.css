@@ -136,3 +136,37 @@ body{
     width: 150px;
     color:#a7a1a1;
 }
+
+/* case section */
+.case-section{
+    margin-top: 100px;
+}
+.case-logo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.case-main{
+    display:flex ;
+    justify-content: center;
+    gap: 100px;
+}
+.case-descp>p{
+    color: #a7a1a1;
+    width: 220px;
+    padding-top: 80px;
+    line-height: 30px;
+}
+.case-btn{
+    background-color: #363434;
+    color: #fffdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 140px;
+    gap: 15px;
+    border-radius: 10px;
+}
+.case-btn:hover{
+    background-color: #585757;
+}
