@@ -6,13 +6,11 @@ body{
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-    padding-left: 200px;
-    padding-right: 100px;
-}
 .navbar{
     padding-top: 50px;
     display: flex;
+    padding-left: 200px;
+    padding-right: 100px;
 }
 .logo{
     padding-right: 350px;
@@ -44,6 +42,10 @@ body{
     position: relative;
     left: 45%;
     top: 30px;
+}
+.hero-sec{
+    padding-left: 200px;
+    padding-right: 100px;
 }
 .hero{
     display: flex;
@@ -82,4 +84,18 @@ body{
 }
 .main-btn:hover{
     background-color: #585757;
+}
+
+/* logo strip */
+.logo-stip>img{
+    height:20px;
+}
+.logo-stip{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 50px;
 }
