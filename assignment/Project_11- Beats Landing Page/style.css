@@ -203,9 +203,61 @@ body{
     align-items: center;
     border-radius: 8px;
 }
-
 .offer-btn:hover{
     background-color: #363434;
     border: none;
     transform: scaleY(1.1);
+}
+
+/* choose your style logo */
+
+.option-logo{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.styles{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px ;
+    column-gap: 20px;
+    justify-content: center;
+}
+.style-1,.style-2,.style-3,.style-4{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: none;
+    background-color: #1d1c1c;
+    border-radius: 10px;
+}
+legend>img{
+    height: 80px;
+    width: 60px;
+}
+.stl-desc{
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.desc1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;align-items: flex-start;
+}
+.desc1>span{
+    font-weight: bold;
+}
+.desc1>p{
+    margin: 0%;
+}
+.stl-desc>button{
+    background-color: #000;
+    border-radius: 5px;
+}
+.style-1:hover, .style-2:hover, .style-3:hover, .style-4:hover{
+    transform: scale(1.4);
+    transition: 1s ease-in-out;
+    background-color: #585757;
 }
