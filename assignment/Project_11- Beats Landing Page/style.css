@@ -29,7 +29,7 @@ body{
     margin-left: 100px;
     width: 100px;
     height: 40px;
-    background-color: #363434;
+    background-color: #1d1c1c;
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
@@ -78,7 +78,7 @@ body{
     width: 220px;
     height: 50px;
     color: #fff;
-    background-color: #363434;
+    background-color: #1d1c1c;
     border-radius: 10px;
     margin-top: 50px;
 }
@@ -157,7 +157,7 @@ body{
     line-height: 30px;
 }
 .case-btn{
-    background-color: #363434;
+    background-color: #1d1c1c;
     color: #fffdfd;
     display: flex;
     justify-content: center;
@@ -260,4 +260,52 @@ legend>img{
     transform: scale(1.4);
     transition: 1s ease-in-out;
     background-color: #585757;
+}
+
+/* footer section */
+
+.footer{
+    margin-block: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color:#fff;
+}
+.footer>img{
+    height: 50px;
+}
+.Support>span , .products>span{
+    font-weight: bold;
+    font-size: large;
+}
+.Support>p , .products>p{
+    color: #a7a1a1;
+}
+.email{
+    padding: 20px;
+    background-color: #1d1c1c;
+    border-radius: 10px;
+    display: flex;
+}
+.email>input{
+    background-color: #1d1c1c;
+    border: none;
+}
+.email-btn{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #c4c2c2;
+    padding: 5px;
+    border-radius: 5px;
+}
+.social{
+    padding-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+.upArrow{
+    position: relative;
+    top: 90px;
+    left: 150px;
 }
