@@ -1,5 +1,3 @@
-# Replicate the Following Output
+# FSJS 2.0 Real Estate page
 
-`Assests are Provided!`
-
-![Project 4](./Real%20Estate%20-%20Desktop.png)
+![Project 10](./Real%20Estate%20-%20Desktop.png)

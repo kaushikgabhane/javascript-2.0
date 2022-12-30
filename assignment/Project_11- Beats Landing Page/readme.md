@@ -1,5 +1,3 @@
-# Replicate the Following Output
+# FSJS 2.0 BEATS_3 LANDING PAGE
 
-`Assests are Provided!`
-
-![Project 5](./Main%20Landing%20page.png)
+![Project 11](./Main%20Landing%20page.png)

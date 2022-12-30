@@ -26,4 +26,19 @@ _**`Made with core HTML and CSS`**_
 
 - ## FSJS 2.0 PROJECT 8
 
-[LINK](./Hosting%20Landing%20Page.png)        
+    [LINK](./Project_08-%20Hosting%20Site%20Landing%20Page/readme.md)        
+
+- ## FSJS 2.0 PROJECT 9
+
+    [LINK](./Project_09-%20Gaming%20Landing%20Page/readme.md)
+
+- ## FSJS 2.0 PROJECT 10
+
+    [LINK](./Project_10-%20Real%20Estate%20Landing%20Page/readme.md)
+
+- ## FSJS 2.0 PROJECT 11
+
+    [Link](./Project_11-%20Beats%20Landing%20Page/readme.md)
+
+
+
