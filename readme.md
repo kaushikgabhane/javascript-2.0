@@ -84,6 +84,20 @@
 
 
 
+## project 10
+
+[link](./assignment/Project_10-%20Real%20Estate%20Landing%20Page/readme.md)
+![output](./assignment/Project_10-%20Real%20Estate%20Landing%20Page/Real%20Estate%20-%20Desktop.png)
+
+
+
+## project 11
+
+[link](./assignment/Project_11-%20Beats%20Landing%20Page/readme.md)
+![output](./assignment/Project_11-%20Beats%20Landing%20Page/Main%20Landing%20page.png)
+
+
+
 ## VS Code Clone
 
 [readme link](./assignments/vs%20code%20clone/readme.md)
