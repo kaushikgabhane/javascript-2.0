@@ -52,6 +52,7 @@
 ## project 5
 
 [link](./assignments/Project%205/readme.md)
+
 ![output](./assignments/Project%205/output.png)
 
 
@@ -59,6 +60,7 @@
 ## project 6
 
 [link](./assignments/Project%206/reame.md)
+
 ![output](./assignments/Project%206/Output.png)
 
 
@@ -66,6 +68,7 @@
 ## project 7
 
 [link](./assignment/Project_07-%20Credit%20Card%20Landing%20Page/readme.md)
+
 ![output](./assignment/Project_07-%20Credit%20Card%20Landing%20Page/Credit%20card%20landing%20page.png)
 
 
@@ -73,6 +76,7 @@
 ## project 8
 
 [link](./assignment/Project_08-%20Hosting%20Site%20Landing%20Page/readme.md)
+
 ![output](./assignment/Project_08-%20Hosting%20Site%20Landing%20Page/Hosting%20Landing%20Page.png)
 
 
@@ -80,6 +84,7 @@
 ## project 9
 
 [link](./assignment/Project_09-%20Gaming%20Landing%20Page/readme.md)
+
 ![output](./assignment/Project_09-%20Gaming%20Landing%20Page/Gaming%20Landing%20Page.png)
 
 
@@ -87,6 +92,7 @@
 ## project 10
 
 [link](./assignment/Project_10-%20Real%20Estate%20Landing%20Page/readme.md)
+
 ![output](./assignment/Project_10-%20Real%20Estate%20Landing%20Page/Real%20Estate%20-%20Desktop.png)
 
 
@@ -94,6 +100,7 @@
 ## project 11
 
 [link](./assignment/Project_11-%20Beats%20Landing%20Page/readme.md)
+
 ![output](./assignment/Project_11-%20Beats%20Landing%20Page/Main%20Landing%20page.png)
 
 
