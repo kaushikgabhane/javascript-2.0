@@ -20,3 +20,10 @@ _**`Made with core HTML and CSS`**_
 
 - ## FSJS 2.0 PROJECT 6
     [LINK](./Project%206/reame.md)
+
+- ## FSJS 2.0 PROJECT 7
+    [LINK](./Project_07-%20Credit%20Card%20Landing%20Page/readme.md)
+
+- ## FSJS 2.0 PROJECT 8
+
+[LINK](./Hosting%20Landing%20Page.png)        
