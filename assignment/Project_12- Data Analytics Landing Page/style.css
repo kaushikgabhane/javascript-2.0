@@ -149,6 +149,11 @@ body{
    transform: scale(0.9);
 }
 
+.hero-right:hover{
+    transform: scale(0.9);
+    transition: 1s ease-in-out;
+}
+
 
 
 /* second-section */
@@ -171,6 +176,10 @@ body{
     border-radius: 50px;
     color: #830be6;
     margin: auto;
+}
+
+.why-qubly:hover{
+    transform: scale(0.9);
 }
 .three-steps > h1{
     font-size: 30px;
@@ -225,6 +234,32 @@ body{
     border-radius: 50px;
     /* color: #830be6; */
 }
+
+.stack-img{
+    animation: rotate 25s steps(100,end) 1s infinite  none;
+}
+@keyframes rotate{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.stack-terms:hover{
+    transform: scale(0.9);
+
+}
 .stack-terms>p>a , .engineering-teams>p>a{
     text-decoration: none;
     font-weight: bold;
@@ -245,12 +280,13 @@ body{
     width: 220px;
     display: flex;
     align-items: center;
-    gap: 10px;
     background-color: #f0e9e9;
     padding-inline: 10px;
     border-radius: 50px;
 }
-
+.engineering-teams:hover{
+    transform: scale(0.9);
+}
 
 
 /* CTO message section */
@@ -301,7 +337,9 @@ body{
     top: 435%;
     left: 18%;
 }
-
+.logo-strip img:hover{
+    transform: scale(0.9);
+}
 
 
 /* Signup section */
@@ -333,6 +371,9 @@ body{
     grid-template-rows: 1fr 1fr;
     row-gap: 75px;
 }
+.trusted-by-logo img:hover{
+    transform: scale(0.9);
+}
 
 .signup-bg{
     height: 450px ;
@@ -351,6 +392,7 @@ body{
     padding-inline: 25px;
     position: relative;
     bottom: 35px;
+    box-shadow: 0px 1px 5px #706d6d, 0px -1px 5px #706d6d;
 }
 .signup h1{
     font-size: x-large;
@@ -394,4 +436,51 @@ body{
 }
 .signup .login a{
     text-decoration: none;
+}
+
+/* footer section */
+.footer{
+    display: flex;
+    gap: 50px;
+    padding-block: 100px;
+    padding-inline: 120px   ;
+}
+.footer-1 p{
+    width: 250px;
+    line-height: 25px;
+    font-size: small;
+    font-weight: 600;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
+}
+.footer-2 span, .footer-3 span, .footer-4 span, .footer-5 span, .newsletter span{
+    font-weight: 900;
+}
+.footer-2 p, .footer-3 p, .footer-4 p, .footer-5 p{
+    font-weight: 600;
+    font-size: small;
+}
+.newsletter{
+    width: max-content;
+    padding: 10px;
+    background-color: #fff;
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.newsletter button{
+    background-color: #fff;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+    color: #5c5959;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: drop-shadow(1px 1px 3px #5f5e5e);
 }
