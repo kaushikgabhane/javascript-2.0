@@ -250,3 +250,54 @@ body{
     padding-inline: 10px;
     border-radius: 50px;
 }
+
+
+
+/* CTO message section */
+
+.cto-bg{
+    background: linear-gradient(to bottom,#fffafa, #e5eef7);
+    transform: rotate(-5deg);
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    right: 50px;
+    padding-right: 100px;
+    margin-top: 100px;
+    z-index: 0;
+}
+
+.CTO-section-1{
+    position: absolute;
+    top: 390%;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CTO-section-1 > q {
+    font-size: larger;
+    font-weight: 600;
+    width: 750px;
+    text-align: center;
+}
+.profile{
+    padding-block: 20px ;
+}
+.CTO-section-1 span{
+    font-weight: 800;
+    font-size: small;
+    padding-top: 10px;
+}
+.CTO-section-1 hr{
+    color: #000000;
+    width: 1000px;
+    margin-top: 25px;
+}
+.logo-strip{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    top: 435%;
+    left: 18%;
+}
