@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/594087ed79.js" crossorigin="anonymous"></script>
     <title>Data analytics LP</title>
 </head>
 <body>
@@ -24,8 +25,22 @@
                      </ul>
                     <button class="nav-btn">
                      <a href="./click.html">Start free trial</a>
-                 </button>
+                    </button>
+                    <button id="mobile-nav">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </nav>
+                <section class="menu">
+                    <button id="close-menu">&times;</button>
+                    <nav>
+                        <ul>
+                          <li><a href="">About</a></li>
+                          <li><a href="">Pricing</a></li>
+                          <li><a href="">Contact Us</a></li>
+                          <li><a href="">Login</a></li>
+                       </ul>
+                    </nav>
+                </section> 
             </header>
             <article aria-label="hero section" class="hero">
                 <div class="hero-left">
@@ -138,8 +153,10 @@
                 <div class="profile">
                     <img src="./images/Profile.png" alt="Profile">
                 </div>
-                <span>Rowan Sullivan</span>
-                <span>CTO @ SullivanAnalytics</span>
+                <div class="cto-name">
+                    <span>Rowan Sullivan</span>
+                    <span>CTO @ SullivanAnalytics</span>
+                </div>
                 <hr>
             </div>
             <div class="logo-strip">
@@ -262,4 +279,5 @@
         </footer>
     </div>
 </body>
+<script src="./menu.js"></script>
 </html>
