@@ -46,6 +46,15 @@ var facebook = 0;
 
 // another way for above logic
 
-if(google || email || facebook){
-    console.log(`User LogIn successful`);
-}
+// if(google || email || facebook){
+//     console.log(`User LogIn successful`);
+// }
+
+
+
+
+//  use of ternary operator in login -- logout.
+
+var authenticate = true; 
+
+console.log(authenticate?"logout":"Login");
