@@ -27,9 +27,12 @@
 
 
 // splice
-// let fruit = ['apple', 'banana', 'chiku', 'dryFruit'];
-// fruit.splice(1,1,"orange");
-// console.log(fruit);
+let fruit = ['apple', 'banana', 'chiku', 'dryFruit'];
+fruit.splice(1,1,"fjjg",2,5,3,"end");                     // here in third param. we can give as many values we want at position of       deleted elements .
+
+console.log(fruit);
+
+
 
 // concatenation
 let arr1 = [1,2,3,4];
