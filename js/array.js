@@ -125,6 +125,9 @@ let fruits = ["apple","badaApple","ChotaApple","DoubleApple","everyApple"];
 // }
 // console.log(Upperfruit);
 
+
+
+
 // break and continue
 
 // for(let i=0;i<=5;i++){
@@ -144,7 +147,10 @@ let fruits = ["apple","badaApple","ChotaApple","DoubleApple","everyApple"];
 // }
 
 
+
+
 // every  :- The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a             Boolean value.
+
 
 var result = [1,2,5,9].every((e)=> (e%2 === 1));  //one way for every method with callback function with odd no. logic
 // console.log(result);
@@ -157,10 +163,21 @@ var outcome = [2,4,10,8,22].every((e) => {         //other way for every method 
 // console.log(outcome);
 
 
+
 // use case of fill method 
 
-let arr4 = [1,2,3,4,5,6,8,7,8];
+let arr10 = [1,2,3,4,5,6,8,7,8];
 
-let solution = arr4.fill("49",5,7);
+let solution = arr10.fill("49",5,7);
 
-console.log(solution.fill("filled",1,3));  // in thos fashion we can fill two items at a time.
+// console.log(solution.fill("filled",1,3));  // in thos fashion we can fill two items at a time.
+
+
+
+
+// filter
+var arr11 = [1,10,23,565,48,59,04,24,775,45,14,500];
+
+let conclusion = arr11.filter((ele) => (ele>=500 && ele<=600) );
+
+// console.log(conclusion);
