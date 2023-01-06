@@ -154,4 +154,13 @@ var outcome = [2,4,10,8,22].every((e) => {         //other way for every method 
   return e%2 === 0;
 });
 
-console.log(outcome);
+// console.log(outcome);
+
+
+// use case of fill method 
+
+let arr4 = [1,2,3,4,5,6,8,7,8];
+
+let solution = arr4.fill("49",5,7);
+
+console.log(solution.fill("filled",1,3));  // in thos fashion we can fill two items at a time.
