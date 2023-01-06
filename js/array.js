@@ -142,3 +142,16 @@ let fruits = ["apple","badaApple","ChotaApple","DoubleApple","everyApple"];
 //   }
 //   console.log(element);  
 // }
+
+
+// every  :- The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a             Boolean value.
+
+var result = [1,2,5,9].every((e)=> (e%2 === 1));  //one way for every method with callback function with odd no. logic
+// console.log(result);
+
+
+var outcome = [2,4,10,8,22].every((e) => {         //other way for every method with callback function with even no. logic
+  return e%2 === 0;
+});
+
+console.log(outcome);
