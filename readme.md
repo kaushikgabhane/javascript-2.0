@@ -105,6 +105,14 @@
 
 
 
+## project 12
+
+[link](./assignment/Project_12-%20Data%20Analytics%20Landing%20Page/readme.md)
+
+![output](./assignment/Project_12-%20Data%20Analytics%20Landing%20Page/Data%20Analytics%20Landing%20page.png)
+
+
+
 ## VS Code Clone
 
 [readme link](./assignments/vs%20code%20clone/readme.md)

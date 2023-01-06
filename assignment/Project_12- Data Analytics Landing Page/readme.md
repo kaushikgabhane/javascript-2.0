@@ -1,5 +1,3 @@
-# Replicate the Following Output
+# FSJS 2.0 Data analytics LANDING PAGE
 
-`Assests are Provided!`
-
-![Project 6](./Data%20Analytics%20Landing%20page.png)
+![Project 12](./Data%20Analytics%20Landing%20page.png)
