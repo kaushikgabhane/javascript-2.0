@@ -14,7 +14,7 @@ console.log(typeof result);
 
 var array = [];
 
-console.log(`${array}`);
+console.log(`${array.values()}`);
 
 //  0 
 var x = 0 ;
@@ -28,7 +28,7 @@ console.log(string.length);
 
 
 //  NaN => not a number
-var num1 = "123";
+var num1 = "n";
 var num2 = 12345;
 
-console.log(typeof(num1 + num2));
+console.log((parseInt(num1) + num2));
