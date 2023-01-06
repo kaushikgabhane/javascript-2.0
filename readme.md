@@ -23,14 +23,14 @@
 
 [link](./assignments/FSJS%202.0%20Project%2001/readme.md)
 
-![output](./assignments/FSJS%202.0%20Project%2001/output.png)
+![output](./assignment/project_1/output.png)
 
 
 ## project 2
 
 [link](./assignments/FSJS%202.0%20Project%2002/readme.md)
 
-![output](./assignments/FSJS%202.0%20Project%2002/output.png)
+![output](./assignment/project_2/output.png)
 
 
 
@@ -38,14 +38,14 @@
 
 [link](./assignments/FSJS%202.0%20Project%2003/readme.md)
 
-![output](./assignments/FSJS%202.0%20Project%2003/output.png)
+![output](./assignment/project_3/output.png)
 
 
 ## project 4
 
 [link](./assignments/Project%204/readme.md)
 
-![output](./assignments/Project%204/output.png)
+![output](./assignment/project_4/output.png)
 
 
 
@@ -53,7 +53,7 @@
 
 [link](./assignments/Project%205/readme.md)
 
-![output](./assignments/Project%205/output.png)
+![output](./assignment/project_5/output.png)
 
 
 
@@ -61,7 +61,7 @@
 
 [link](./assignments/Project%206/reame.md)
 
-![output](./assignments/Project%206/Output.png)
+![output](./assignment/project_5/output.png)
 
 
 
