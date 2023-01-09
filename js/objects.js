@@ -49,3 +49,14 @@ let obj = {
 
 let arr = ["value1","value2","value3","value4"];
 // console.log(arr);
+
+
+arr.prop1 = 2;          //key value pair is added in array. but it will not be counted in length of array
+console.log(arr);
+console.log(arr.length);
+
+// But if we want to iterate through all values then it will definitely give the key "prop"
+
+for(const key in arr){
+    console.log(key);
+}
