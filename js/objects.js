@@ -34,5 +34,18 @@ let student = {
 
 // console.log(student.marks.history);
 
-console.log(student.marks.extra);
+// console.log(student.marks.extra);
 
+
+// Arrays and objects 
+let obj = {
+    key1 : "value1",
+    key2 : "value2",
+    key3 : "value3",
+    key4 : "value4"
+};
+
+// console.log(obj);
+
+let arr = ["value1","value2","value3","value4"];
+// console.log(arr);
