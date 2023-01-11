@@ -91,12 +91,12 @@ const student2 = {
     marks: "85%"
 }
 
-function getSub() {
+function getResult() {
     console.log(`The subject of ${this.name} is ${this.subject} and passed with ${this.marks}.`);
 }
 
-student1.getSub = getSub;
-student2.getSub = getSub;
+student1.getResult = getResult;
+student2.getResult = getResult;
 
-student1.getSub();
-student2.getSub();
+student1.getResult();
+student2.getResult();
