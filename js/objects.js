@@ -34,7 +34,7 @@ let student = {
 
 // console.log(student.marks.history);
 
-console.log(student.marks.extraActivities);
+// console.log(student.marks.extraActivities);
 
 
 // Arrays and objects 
@@ -73,3 +73,30 @@ const emp = {
 };
 
 // console.log(emp.salary());
+
+
+
+// working with this keyword
+const student1 = { 
+    name: "ash",
+    rollNo: 20,
+    subject: "maths",
+    marks: "75%"
+}
+
+const student2 = {
+    name: "tom",
+    rollNo: 10,
+    subject: "history",
+    marks: "85%"
+}
+
+function getSub() {
+    console.log(`The subject of ${this.name} is ${this.subject} and passed with ${this.marks}.`);
+}
+
+student1.getSub = getSub;
+student2.getSub = getSub;
+
+student1.getSub();
+student2.getSub();
