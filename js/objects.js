@@ -5,7 +5,7 @@ let customer = {
     addess: "Bhandara" 
 };
 customer.pinCode = 1234; //assign new property
-console.log(customer);
+// console.log(customer);
 // console.log(customer.addess);
 
 
@@ -22,7 +22,7 @@ let student = {
         math : 89,
         sci : 90,
 
-        extra : {
+        extraActivities : {
             phy_activity : 20,
             music : 20 ,
             elocution : 30
@@ -34,7 +34,7 @@ let student = {
 
 // console.log(student.marks.history);
 
-// console.log(student.marks.extra);
+console.log(student.marks.extraActivities);
 
 
 // Arrays and objects 
@@ -60,3 +60,16 @@ arr.prop1 = 2;          //key value pair is added in array. but it will not be c
 for(const key in arr){
     // console.log(key);
 }
+
+// object methods
+
+const emp = {
+    Name :"tom",
+    id : "245s2fdg",
+
+    salary(){
+        return "Salary is Disbursed for Decembar 2022";
+    }
+};
+
+// console.log(emp.salary());
