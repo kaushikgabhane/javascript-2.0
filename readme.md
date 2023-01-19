@@ -154,6 +154,18 @@
 
 
 
+
+# JS practice files    
+
+[link](https://github.com/kaushikgabhane/javascript-2.0/tree/master/js)
+
+
+# JS_assignments 
+
+[Link](https://github.com/kaushikgabhane/javascript-2.0/tree/master/JS_assignment)
+
+
+
 # Practice
 
 Some practice work 
