@@ -118,6 +118,13 @@ const operatingSystem = {
 
 
 //  Object.freez() is a build in method in js which makes an object readonly or prevents from modification.
-const freez = Object.freeze(operatingSystem);
-freez.downloads = 10;           //  This property will not get added because object is freezed.
-console.log(freez);
+// const freez = Object.freeze(operatingSystem);
+// freez.downloads = 10;           //  This property will not get added because object is freezed.
+// console.log(freez);
+
+
+//  Object.seal() with this property our object's predefined values get modified but we can not add new properties.
+const seal = Object.seal(operatingSystem);
+seal.name = "linux";
+seal.downlods = 55555;      //  This line will not get added.
+console.log(seal);
