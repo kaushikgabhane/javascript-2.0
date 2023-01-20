@@ -5,16 +5,17 @@ const changeValue = document.getElementsByClassName(".count");
 
 
 let count1 = 0;
+let interval = prompt("Entertime in seconds : " )
 let id = setInterval(() => {
 
-    if(count1 <= 60 ){
+    if(count1 <= interval ){
         count1++;
         counter.innerHTML = count1;
     }
 
-    if (count1 == 60) {
+    if (count1 == interval) {
         let follower1 = "💥 Times up !! ⏱️";
         follower.innerHTML = follower1;
         clearInterval(id);
     }
-}, 100);
+}, 1000);
