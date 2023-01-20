@@ -30,7 +30,7 @@
 let fruit = ['apple', 'banana', 'chiku', 'dryFruit'];
 fruit.splice(1,1,"fjjg",2,5,3,"end");                     // here in third param. we can give as many values we want at position of       deleted elements .
 
-console.log(fruit);
+// console.log(fruit);
 
 
 
@@ -184,3 +184,18 @@ var arr11 = [1,10,23,565,48,59,04,24,775,45,14,500];
 let conclusion = arr11.filter((ele) => (ele>=500 && ele<=600) );
 
 // console.log(conclusion);
+
+
+function avg(arr) {
+  let sum = 0;
+  let result ;
+
+  for (const values of arr) {
+    sum += values;
+  }
+  const noOfElement = arr.length;
+  result = sum/noOfElement;
+  console.log(result);
+}
+
+avg([10,50,43,89,67,345]);
