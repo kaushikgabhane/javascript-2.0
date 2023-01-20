@@ -198,4 +198,18 @@ function avg(arr) {
   console.log(result);
 }
 
-avg([10,50,43,89,67,345]);
+// avg([10,50,43,89,67,345]);
+
+let largeNo = 0;
+let large = (array) =>{
+  for (let i = 0; i < array.length; i++) {
+    
+    if(largeNo < array[i]){
+
+      largeNo = array[i];
+    }
+  }
+  console.log(largeNo);
+}
+
+large([1,10,4,3,5]);
