@@ -112,5 +112,12 @@ const operatingSystem = {
     license: "Open Source",
 };
 
-const entries = Object.entries(operatingSystem);
-console.log(entries);
+// const entries = Object.entries(operatingSystem);
+// console.log(entries);
+
+
+
+//  Object.freez() is a build in method in js which makes an object readonly or prevents from modification.
+const freez = Object.freeze(operatingSystem);
+freez.downloads = 10;           //  This property will not get added because object is freezed.
+console.log(freez);
