@@ -98,5 +98,19 @@ function getResult() {
 student1.getResult = getResult;
 student2.getResult = getResult;
 
-student1.getResult();
-student2.getResult();
+// student1.getResult();
+// student2.getResult();
+
+
+
+
+// Entries method in object
+// This method creates an array of arrays of respective key value pairs of an object.
+const operatingSystem = {
+    name: "Ubuntu",
+    version: "20.04",
+    license: "Open Source",
+};
+
+const entries = Object.entries(operatingSystem);
+console.log(entries);
