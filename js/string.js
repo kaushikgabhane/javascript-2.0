@@ -11,4 +11,16 @@ function vowel(string) {
     console.log(`Number of vowels in given string is : ${count}`);
 }
 
-vowel("I am a aspiring full stack developer .");
+// vowel("I am a aspiring full stack developer .");
+
+
+
+
+//  reverse the given string
+
+let reverseString = (string) => {
+    let result = ((string.split("")).reverse()).join("");
+    console.log(result);
+}
+
+reverseString("kaushik");
