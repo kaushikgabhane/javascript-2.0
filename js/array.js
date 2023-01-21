@@ -212,4 +212,17 @@ let large = (array) =>{
   console.log(largeNo);
 }
 
-large([1,10,4,3,5]);
+// large([1,10,4,3,5]);
+
+let fn = (array1) => {
+  let array2 = [];
+ array1.forEach(element => {
+    if(element%2 == 0) {
+      
+      array2.push(element);
+    }
+  });
+  console.log(array2);
+}
+
+fn([1,2,4,3,1,5,6,8]);
