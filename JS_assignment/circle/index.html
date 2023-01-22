@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click assignment</title>
+</head>
+    <style>
+        body{
+            background-color: #000000;
+            margin: 0%;
+            height: 100vh;
+            width: 100vw;
+            cursor: pointer;
+        }
+    </style>
+<body>
+    
+</body>
+    <script>
+
+        
+        function randomColor() {
+            let value = "0123456789abcdef";
+            let cons = "#";
+            
+            for (let i = 0; i < 6 ; i++) {
+                
+                cons = cons + value[Math.floor(Math.random() * 16)];
+            }      
+            return cons;
+        }
+
+        let num = 0 ;
+        function numbers(){
+            num = num + 1;
+            return num;
+            
+        }
+
+        document.addEventListener("click",(event) => {
+
+            // grab and create html elements
+
+            const  click = document.body;
+            const circle = document.createElement("div");
+
+
+            // grab the  x and y co-ordinates of mouse click
+            const x_value = event.clientX;
+            const y_value = event.clientY;
+            
+            // here we are adding  numers to colored circles
+            circle.innerText = numbers(); 
+
+            // 1) we first declared position absolute and given value to left and right by fetched co-ordinates above (line no. 58,59,60)
+            // 2) specifying styling of our div element. (line no. 61,62,63,64)
+            circle.style.position = "absolute";
+            circle.style.left = `${x_value}px`;
+            circle.style.top = `${y_value}px`
+            circle.style.width = "50px";
+            circle.style.height = "50px";
+            circle.style.backgroundColor = randomColor();
+            circle.style.borderRadius = "50px";
+
+            //  specifying the styling of text inside div element.
+            circle.style.display = "flex";
+            circle.style.justifyContent = "center";
+            circle.style.alignItems = "center";
+            circle.style.color = "#ffffff";
+            circle.style.fontSize = "25px";
+
+            //  appending div element to our document (body of web page).
+            click.appendChild(circle);
+        });
+        
+
+        
+    </script>
+</html>
