@@ -20,7 +20,7 @@
 </body>
     <script>
 
-        
+        //  function for generating random color
         function randomColor() {
             let value = "0123456789abcdef";
             let cons = "#";
@@ -32,6 +32,7 @@
             return cons;
         }
 
+        // function for generating numbers from 1 to ∞ (infinite)
         let num = 0 ;
         function numbers(){
             num = num + 1;
@@ -73,9 +74,13 @@
 
             //  appending div element to our document (body of web page).
             click.appendChild(circle);
+
+            // element will disappear after two seconds.
+            setTimeout(() => {
+                click.removeChild(circle);
+            }, 5000);
         });
         
 
-        
     </script>
 </html>
