@@ -82,3 +82,54 @@ support.style.width = "100px"
 pro_btn.appendChild(support);
 ```
 ---
+
+## **Assignment  2 :** 
+---
+---
+
+***TASK 1 :*** Change the backgroundColor of headings in "About section".
+![output](./secondAssignmentImage/task1Output.png)
+
+```
+const h3_background = document.querySelectorAll(".accordian h3"); 
+//It will select all heading elements
+
+
+let bg_color = [...h3_background];
+//It will convert that group of elements into array
+
+
+bg_color.map((ele)=> ele.style.backgroundColor = "#DDDDDD");
+//It will change the background color of h3 elements.
+```
+---
+
+***TASK 2 :*** Add a Skills section in the about page.
+![output](./secondAssignmentImage/task2Output.png)
+
+```
+//Selects main div .
+const acc_wrapper = document.querySelector(".accordian-wrapper");
+
+//Creates new element named skills and sets class "accordian".
+const skills = document.createElement("div");
+skills.setAttribute("class","accordian");
+
+
+<!-- Creates new element h3 and after adding innerText appended it -->
+
+const skill_h3 = document.createElement("h3");
+skill_h3.innerText = "Skills";
+skills.appendChild(skill_h3);
+
+
+<!-- Creates new element p and after adding innerText appended it -->
+const skills_p = document.createElement("p");
+skills_p.innerText = "I posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
+skills.append(skills_p);
+
+
+<!-- appended div element to the main div. -->
+acc_wrapper.appendChild(skills);
+```
+---
