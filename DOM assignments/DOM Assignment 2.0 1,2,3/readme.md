@@ -124,8 +124,11 @@ skills.appendChild(skill_h3);
 
 
 <!-- Creates new element p and after adding innerText appended it -->
+
 const skills_p = document.createElement("p");
+
 skills_p.innerText = "I posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
+
 skills.append(skills_p);
 
 
