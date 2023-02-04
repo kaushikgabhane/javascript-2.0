@@ -1,6 +1,6 @@
 const logo = document.querySelector(".logo");
 logo.setAttribute("src","./assets/ineuron-logo.png");
-// console.log(logo);
+
 
 
 const app_price = document.querySelector(".app_price span");
