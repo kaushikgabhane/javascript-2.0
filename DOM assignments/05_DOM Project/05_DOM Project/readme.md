@@ -1,13 +1,13 @@
 # ***DOM Assignments 5*** :-
 
-***Task 1*** : Match the output with the given output image with the help of DOM manipulation.
+***Task*** : Match the output with the given output image with the help of DOM manipulation.
 
 ![output](./Output/DOM%20P2%20SS.png)
 
-Ans. Code :
+Ans. Code : 👇
 
 ```
-<!-- This will add a Pro Subscription button. -->
+<!-- This will add a Pro Subscription button. -->👇
 
 const div = document.querySelectorAll(".nav-center div");
 
@@ -24,7 +24,7 @@ div[div.length-1].appendChild(subscription);
 
 
 
-<!-- This will add chinese as iteam 7. -->
+<!-- This will add chinese as iteam 7. -->👇
 
 const parent_div = document.querySelector(".tags-container div");
 const chinese = document.createElement("a");
@@ -34,7 +34,7 @@ parent_div.appendChild(chinese);
 
 
 
-<!--  This will add  the 6th card. -->
+<!--  This will add  the 6th card. -->👇
 
 const recipe_gallery = document.querySelector(".recipe-gallery");
 
@@ -62,7 +62,7 @@ recipe_gallery.appendChild(card_6);
 
 
 
-<!-- Add Your Name in footer -->
+<!-- Add Your Name in footer -->👇
 
 const name1 = document.querySelector(".page-footer p a");
 name1.innerText = "Kaushik Gabhane";

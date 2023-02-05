@@ -4,7 +4,7 @@
 
 ![output](./Output/DOM%20P3%20SS-1.png)
 
-Ans. Code :
+Ans. Code : 👇
 
 ```
 const logo = document.querySelector(".logo");
@@ -16,24 +16,21 @@ ___
 
 ![output](./Output/DOM%20P3%20SS-2.png)
 
-Ans. Code :
+Ans. Code : 👇
 
 ```
-<!-- This code part will change the price value -->
+<!-- This code part will change the price value -->👇
 
 const app_price = document.querySelector(".app_price span");
 app_price.textContent = "$10";
 
 
-
-<!-- selects the footer section -->
+<!-- selects the footer section -->👇
 
 const footer_social = document.querySelector(".footer_social");
 
 
-
-<!-- This will add the new linkedin icon in footer section -->
-
+<!-- This will add the new linkedin icon in footer section -->👇
 
 const footer_social_ico = document.createElement("div");
 footer_social_ico.className = "footer_social_ico";

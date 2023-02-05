@@ -4,10 +4,10 @@
 
 ![output](./Output/DOM%20P1%20SS.png)
 
-Ans. Code :
+Ans. Code : 👇
 
 ```
-<!-- This code part will change the background color of the respective cards unit stats -->
+<!-- This code part will change the background color of the respective cards unit stats --> 👇
 
 
 const barbarian = document.querySelector(".clash-card__unit-stats--barbarian");
@@ -27,21 +27,21 @@ wizard.style.backgroundColor = "#39B5E0";
 
 
 
-<!-- This part will select each stat of each card -->
+<!-- This part will select each stat of each card -->👇
 
 const stat = document.querySelectorAll(".stat");
 const stat_value = document.querySelectorAll(".stat-value");
 
 
 
-<!-- Convert that collection of values to an array  collection -->
+<!-- Convert that collection of values to an array  collection -->👇
 
 const stat_arr = [...stat];
 const stat_value_arr = [...stat_value];
 
 
 
-<!-- This will chanage the color of state value and states color -->
+<!-- This will chanage the color of state value and states color -->👇
 
 stat_arr.map((ele)=> ele.style.color = "white");
 stat_value_arr.map((ele)=> ele.style.color = "white");
