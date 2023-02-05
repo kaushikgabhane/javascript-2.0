@@ -1,6 +1,6 @@
 // Task 1
 const heading  = document.querySelector(".caption .title");
-heading.style.color = "#D61355"
+heading.style.color = "#D61355";
 
 
 
