@@ -40,8 +40,6 @@ div.appendChild(navList);
 navbar.appendChild(div);
 
 button.addEventListener("click",() => {
-    navbar.style.display = "flex";
-    div.style.flexDirection = "column";
     logo.style.position = "relative";
     logo.style.bottom = "87px";
 
