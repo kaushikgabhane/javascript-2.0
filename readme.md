@@ -28,7 +28,8 @@
 
 ## 9) [Git tool and strategies](https://kaushik543.hashnode.dev/git-tools-stratergies)
 
-
+___
+___
 
 # Assignments
 
@@ -132,6 +133,35 @@
 
 [output](https://vs-code-clone-4bc25d.netlify.app/)
 
+___
+___
+
+# DOM Assinments
+
+## Assignment 1,2,3
+[readme](./DOM%20assignments/DOM%20Assignment%202.0%201%2C2%2C3/readme.md)
+
+## Assignment 4
+[readme](./DOM%20assignments/04_DOM%20Project/04_DOM%20Project/readme.md)
+
+## Assignment 5
+[readme](./DOM%20assignments/05_DOM%20Project/05_DOM%20Project/readme.md)
+
+## Assignment 6
+[readme](./DOM%20assignments/06_DOM%20Project/06_DOM%20Project/readme.md)
+
+## Assignment 7
+[readme]()
+
+## Assignment 8
+[readme](./DOM%20assignments/DOM%20P8/DOM%20P8/readme.md)
+
+## Assignment 9
+[readme](./DOM%20assignments/DOM%20P9/DOM%20P9/readme.md)
+
+___
+___
+
 
 
 # HTML AND CSS
@@ -153,21 +183,27 @@
 [link](./Html%20and%20css/positions/readme.md)
 
 
-
+___
+___
 
 # JS practice files    
 
 [link](https://github.com/kaushikgabhane/javascript-2.0/tree/master/js)
 
+___
+___
 
 # JS_assignments 
 
 [Link](https://github.com/kaushikgabhane/javascript-2.0/tree/master/JS_assignment)
 
-
+___
+___
 
 # Practice
 
 Some practice work 
 
 [link](./practice/Day-1/readme.md)
+___
+___
