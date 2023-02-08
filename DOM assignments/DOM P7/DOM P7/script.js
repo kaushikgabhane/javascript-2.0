@@ -1,4 +1,3 @@
-const all_lang = document.querySelectorAll(".main_languages");
 const all_lang_name = document.querySelectorAll(".main__languages a");
 
 const all_lang_arr = [...all_lang_name];
