@@ -25,7 +25,7 @@ aside.style.overflowX = "hidden";
 
 // Task two
 
-// document.body.style.backgroundImage = "none";
+document.body.style.backgroundImage = "none";
 
 // task three
 const navbar = document.querySelector(".navbar");
