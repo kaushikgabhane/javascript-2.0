@@ -36,5 +36,5 @@ console.log("minute's are ", minutes);
 
 
 // Find out the numbers of seconds elapsed from January 1, 1970 to now.
-let seconds = today.getUTCSeconds();
-console.log("the numbers of seconds elapsed from January 1, 1970 to now are ", seconds);
+let seconds =Math.floor(Date.now() / 1000);
+console.log("the numbers of seconds elapsed from January 1, 1970 to now are ", seconds,".");
