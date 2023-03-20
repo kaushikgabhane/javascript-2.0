@@ -196,4 +196,30 @@ function calc(operator,num1,num2){
     }
 }
 
-console.log(calc("%",10,5));
+// console.log(calc("%",10,5));
+
+
+// First Class Functions :
+//  The ability of a function of being passed as a value or returned from a function or passed as a argument in a function is termed as first class functions.
+
+function a(param){
+    // 1.  return function x(){
+    //     console.log(1);
+    //   }
+
+    // 2.
+    console.log(param());
+}
+
+// a()();   
+// The first () is for normal function call and the second one will call the returned function from a().
+
+
+// a(function (){
+    
+// })
+
+function xy() {
+    console.log(21);
+}
+a(xy);
