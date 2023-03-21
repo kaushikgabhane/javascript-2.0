@@ -225,4 +225,36 @@ let fn = (array1) => {
   console.log(array2);
 }
 
-fn([1,2,4,3,1,5,6,8]);
+// fn([1,2,4,3,1,5,6,8]);
+
+
+
+
+// reduce : It is used to come up with a single result when applied to an array.
+
+const users = [
+  {firstanme:"kaushik", lastname:"gabhane", age:21},
+  {firstanme:"Hitesh", lastname:"choudhary", age:35},
+  {firstanme:"rohit", lastname:"sharma", age:34},
+  {firstanme:"manas", lastname:"singh", age:21}
+]
+
+// result : acc = {21:2, 35:1, 34:1}
+
+const output = users.reduce((acc,curr)=>{
+  if (acc[curr.age]) {
+    acc[curr.age] = ++acc[curr.age];
+  }
+  else{
+    acc[curr.age] = 1;
+  }
+  return acc;
+},{});
+
+// console.log(output);
+
+
+//  Find firstName of persons whose age is < 30.
+
+const lessThanThirty = users.filter((user)=>user.age < 30).map(x => x.firstanme);
+console.log(lessThanThirty);
