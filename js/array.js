@@ -255,6 +255,17 @@ const output = users.reduce((acc,curr)=>{
 
 
 //  Find firstName of persons whose age is < 30.
-
+// With filter() and map();
 const lessThanThirty = users.filter((user)=>user.age < 30).map(x => x.firstanme);
-console.log(lessThanThirty);
+// console.log(lessThanThirty);
+
+
+// OR
+// With reduce();
+const reduceLTT = users.reduce((acc,curr)=>{
+  if(curr.age<30){
+    acc.push(curr.firstanme);
+  } 
+  return acc;
+},[])
+console.log(reduceLTT);
